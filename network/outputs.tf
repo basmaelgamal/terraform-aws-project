@@ -13,7 +13,12 @@ output "private2_id" {
 output "nat_ip" {
   value = aws_eip.company.public_ip
 }
+output "vpc_id" {
+  value = aws_vpc.company.id
+}
 
-
+output "aws_security_group" {
+  value = aws_security_group.company_traffic.id
+}
 
 

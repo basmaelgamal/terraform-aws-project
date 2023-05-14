@@ -8,5 +8,6 @@ public2_subnet_cidr = var.public2_subnet_cidr
 private1_subnet_cidr= var.private1_subnet_cidr
 private2_subnet_cidr = var.private2_subnet_cidr
 region = var.region
+ingressrules = var.ingressrules
 
 }

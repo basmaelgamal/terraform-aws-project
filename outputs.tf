@@ -24,3 +24,8 @@ output "public2_id" {
 # output "private2_id" {
 #   value = module.company.private2.id
 # }
+
+
+output "aws_security_group" {
+  value = module.company.aws_security_group
+}

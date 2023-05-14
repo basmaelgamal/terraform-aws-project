@@ -19,4 +19,7 @@ variable "private2_subnet_cidr" {
 variable "region" {
   type = string
 }
+variable "ingressrules" {
+    type = list (number)
+}
 

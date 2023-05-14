@@ -1,7 +1,7 @@
 resource "aws_security_group" "company_traffic" {
 name        = "company_traffic"
 description = "Allow jenkins inbound and  outbound  traffic"
-
+vpc_id = aws_vpc.company.id
 
 dynamic "ingress" {
     for_each    = var.ingressrules
